@@ -1,4 +1,4 @@
-import startGame from '..';
+import startGame from '../index.js';
 import randomNumber from '../randomNumber.js';
 
 const descriptionOfGame = 'Answer "yes" if number even otherwise answer "no".';
