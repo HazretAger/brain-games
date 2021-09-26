@@ -19,6 +19,7 @@ const startGame = (descriptionOfGame, generateGame) => {
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (correctAnswer === Number(userAnswer)) {
+      console.log('Correct!');
       iter(counter + 1);
       return;
     }
